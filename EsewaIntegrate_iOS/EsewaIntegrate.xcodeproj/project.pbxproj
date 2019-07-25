@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892827D6F2FBC10853FD8EC0 /* Pods_EsewaIntegrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EE0D8F54F179B2203F251D /* Pods_EsewaIntegrate.framework */; };
+		CF8ED27F22E97E900001BB0D /* EsewaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8ED27E22E97E900001BB0D /* EsewaSDK.framework */; };
+		CF8ED28022E97E9A0001BB0D /* EsewaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8ED27E22E97E900001BB0D /* EsewaSDK.framework */; };
+		CF8ED28122E97E9A0001BB0D /* EsewaSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF8ED27E22E97E900001BB0D /* EsewaSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFE21D8C22E97D80006D8053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE21D8B22E97D80006D8053 /* AppDelegate.swift */; };
+		CFE21D8E22E97D80006D8053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE21D8D22E97D80006D8053 /* ViewController.swift */; };
+		CFE21D9122E97D80006D8053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE21D8F22E97D80006D8053 /* Main.storyboard */; };
+		CFE21D9322E97D84006D8053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE21D9222E97D84006D8053 /* Assets.xcassets */; };
+		CFE21D9622E97D84006D8053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE21D9422E97D84006D8053 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF8ED28222E97E9A0001BB0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF8ED28122E97E9A0001BB0D /* EsewaSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50EE0D8F54F179B2203F251D /* Pods_EsewaIntegrate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsewaIntegrate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6855FFBA0153D8C23585332B /* Pods-EsewaIntegrate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsewaIntegrate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EsewaIntegrate/Pods-EsewaIntegrate.debug.xcconfig"; sourceTree = "<group>"; };
+		A11110F1F90A69F3F3BF7AB9 /* Pods-EsewaIntegrate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsewaIntegrate.release.xcconfig"; path = "Pods/Target Support Files/Pods-EsewaIntegrate/Pods-EsewaIntegrate.release.xcconfig"; sourceTree = "<group>"; };
+		CF8ED27E22E97E900001BB0D /* EsewaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EsewaSDK.framework; sourceTree = "<group>"; };
+		CFE21D8822E97D80006D8053 /* EsewaIntegrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsewaIntegrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE21D8B22E97D80006D8053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFE21D8D22E97D80006D8053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFE21D9022E97D80006D8053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFE21D9222E97D84006D8053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFE21D9522E97D84006D8053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFE21D9722E97D84006D8053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE21D8522E97D80006D8053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8ED27F22E97E900001BB0D /* EsewaSDK.framework in Frameworks */,
+				CF8ED28022E97E9A0001BB0D /* EsewaSDK.framework in Frameworks */,
+				892827D6F2FBC10853FD8EC0 /* Pods_EsewaIntegrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055B05E3F37335708C7DA478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50EE0D8F54F179B2203F251D /* Pods_EsewaIntegrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53603B82131FD3AA8930BC5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6855FFBA0153D8C23585332B /* Pods-EsewaIntegrate.debug.xcconfig */,
+				A11110F1F90A69F3F3BF7AB9 /* Pods-EsewaIntegrate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFE21D7F22E97D80006D8053 = {
+			isa = PBXGroup;
+			children = (
+				CFE21D8A22E97D80006D8053 /* EsewaIntegrate */,
+				CF8ED27E22E97E900001BB0D /* EsewaSDK.framework */,
+				CFE21D8922E97D80006D8053 /* Products */,
+				53603B82131FD3AA8930BC5D /* Pods */,
+				055B05E3F37335708C7DA478 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE21D8922E97D80006D8053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE21D8822E97D80006D8053 /* EsewaIntegrate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE21D8A22E97D80006D8053 /* EsewaIntegrate */ = {
+			isa = PBXGroup;
+			children = (
+				CFE21D8B22E97D80006D8053 /* AppDelegate.swift */,
+				CFE21D8D22E97D80006D8053 /* ViewController.swift */,
+				CFE21D8F22E97D80006D8053 /* Main.storyboard */,
+				CFE21D9222E97D84006D8053 /* Assets.xcassets */,
+				CFE21D9422E97D84006D8053 /* LaunchScreen.storyboard */,
+				CFE21D9722E97D84006D8053 /* Info.plist */,
+			);
+			path = EsewaIntegrate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE21D8722E97D80006D8053 /* EsewaIntegrate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE21D9A22E97D84006D8053 /* Build configuration list for PBXNativeTarget "EsewaIntegrate" */;
+			buildPhases = (
+				262149F1BA2B198F57A96CD1 /* [CP] Check Pods Manifest.lock */,
+				CFE21D8422E97D80006D8053 /* Sources */,
+				CFE21D8522E97D80006D8053 /* Frameworks */,
+				CFE21D8622E97D80006D8053 /* Resources */,
+				CF8ED28222E97E9A0001BB0D /* Embed Frameworks */,
+				3598E874EDEC1530F17416AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EsewaIntegrate;
+			productName = EsewaIntegrate;
+			productReference = CFE21D8822E97D80006D8053 /* EsewaIntegrate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE21D8022E97D80006D8053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "KandK Tech Pvt Ltd.";
+				TargetAttributes = {
+					CFE21D8722E97D80006D8053 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CFE21D8322E97D80006D8053 /* Build configuration list for PBXProject "EsewaIntegrate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE21D7F22E97D80006D8053;
+			productRefGroup = CFE21D8922E97D80006D8053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE21D8722E97D80006D8053 /* EsewaIntegrate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE21D8622E97D80006D8053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE21D9622E97D84006D8053 /* LaunchScreen.storyboard in Resources */,
+				CFE21D9322E97D84006D8053 /* Assets.xcassets in Resources */,
+				CFE21D9122E97D80006D8053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262149F1BA2B198F57A96CD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EsewaIntegrate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3598E874EDEC1530F17416AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EsewaIntegrate/Pods-EsewaIntegrate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EsewaIntegrate/Pods-EsewaIntegrate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE21D8422E97D80006D8053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE21D8E22E97D80006D8053 /* ViewController.swift in Sources */,
+				CFE21D8C22E97D80006D8053 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFE21D8F22E97D80006D8053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE21D9022E97D80006D8053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFE21D9422E97D84006D8053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE21D9522E97D84006D8053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFE21D9822E97D84006D8053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFE21D9922E97D84006D8053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE21D9B22E97D84006D8053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6855FFBA0153D8C23585332B /* Pods-EsewaIntegrate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JPWRP27QFB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EsewaIntegrate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kandk.EsewaIntegrate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFE21D9C22E97D84006D8053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11110F1F90A69F3F3BF7AB9 /* Pods-EsewaIntegrate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JPWRP27QFB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EsewaIntegrate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kandk.EsewaIntegrate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE21D8322E97D80006D8053 /* Build configuration list for PBXProject "EsewaIntegrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE21D9822E97D84006D8053 /* Debug */,
+				CFE21D9922E97D84006D8053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE21D9A22E97D84006D8053 /* Build configuration list for PBXNativeTarget "EsewaIntegrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE21D9B22E97D84006D8053 /* Debug */,
+				CFE21D9C22E97D84006D8053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE21D8022E97D80006D8053 /* Project object */;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:">
+   </FileRef>
+   <Group
+      location = "group:EsewaSDK.framework"
+      name = "EsewaSDK.framework">
+      <Group
+         location = "group:_CodeSignature"
+         name = "_CodeSignature">
+         <FileRef
+            location = "group:CodeResources">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Assets.car">
+      </FileRef>
+      <Group
+         location = "group:Headers"
+         name = "Headers">
+         <FileRef
+            location = "group:Encryptor.h">
+         </FileRef>
+         <FileRef
+            location = "group:EsewaSDK-Swift.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSData+Base64.h">
+         </FileRef>
+         <FileRef
+            location = "group:EsewaSDK.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Modules"
+         name = "Modules">
+         <Group
+            location = "group:EsewaSDK.swiftmodule"
+            name = "EsewaSDK.swiftmodule">
+            <FileRef
+               location = "group:x86_64.swiftdoc">
+            </FileRef>
+            <FileRef
+               location = "group:x86_64.swiftmodule">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:module.modulemap">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:EsewaSDK">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:esewa.storyboardc">
+      </FileRef>
+   </Group>
+</Workspace>
